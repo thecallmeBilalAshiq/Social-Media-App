@@ -1,0 +1,68 @@
+import { type Product } from '@/lib/types';
+
+export const products: Product[] = [
+  {
+    id: '1',
+    name: 'Aura Smart Watch',
+    description: 'Track your fitness and stay connected in style with this sleek smartwatch. Features a vibrant AMOLED display and long-lasting battery.',
+    price: 249.99,
+    image: 'https://placehold.co/600x400.png',
+    category: 'Watches',
+  },
+  {
+    id: '2',
+    name: 'Echo Wireless Headphones',
+    description: 'Immerse yourself in crystal-clear audio with these noise-cancelling headphones. Perfect for music, podcasts, and calls.',
+    price: 199.99,
+    image: 'https://placehold.co/600x400.png',
+    category: 'Electronics',
+  },
+  {
+    id: '3',
+    name: 'Odyssey Graphic T-Shirt',
+    description: 'Made from 100% organic cotton, this comfortable t-shirt features a unique design inspired by cosmic adventures.',
+    price: 29.99,
+    image: 'https://placehold.co/600x400.png',
+    category: 'Apparel',
+  },
+  {
+    id: '4',
+    name: 'Nomad Classic Sneakers',
+    description: 'Walk anywhere with these timeless canvas sneakers. A versatile and comfortable choice for any casual occasion.',
+    price: 69.99,
+    image: 'https://placehold.co/600x400.png',
+    category: 'Shoes',
+  },
+  {
+    id: '5',
+    name: 'Vortex Gaming Laptop',
+    description: 'Unleash peak performance with this gaming laptop, featuring a high-refresh-rate screen and a top-of-the-line GPU.',
+    price: 1499.99,
+    image: 'https://placehold.co/600x400.png',
+    category: 'Computers',
+  },
+  {
+    id: '6',
+    name: 'Sentinel Leather Wallet',
+    description: 'A minimalist wallet crafted from genuine full-grain leather. Slim, durable, and designed to age beautifully.',
+    price: 89.99,
+    image: 'https://placehold.co/600x400.png',
+    category: 'Accessories',
+  },
+  {
+    id: '7',
+    name: 'Breeze Portable Cooler',
+    description: 'Stay cool wherever you are. This compact, personal air cooler is perfect for your desk or nightstand.',
+    price: 129.99,
+    image: 'https://placehold.co/600x400.png',
+    category: 'Home Appliances',
+  },
+  {
+    id: '8',
+    name: 'Arctic Window AC',
+    description: 'An energy-efficient window air conditioner that cools your room quickly and quietly. Features a remote for easy control.',
+    price: 349.50,
+    image: 'https://placehold.co/600x400.png',
+    category: 'Home Appliances',
+  },
+];
